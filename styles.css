@@ -11,12 +11,8 @@ body{
 }
 
 .header {
-	width: 1500px;
-	min-width: 700px;
-	height: 150px;
-	padding-left: 100px;
-	padding-right: 100px;
-	position: relative;
+	width: 80%;
+	height: 30%;
 	margin: 0 auto;
 	
 }
@@ -26,121 +22,26 @@ body{
 	font-family: arial;
 	text-align: justify;
 }
-.welcome {
-	position: absolute;
-	bottom: 0px;
-	right: 100px;
+.header h2{
+	float: right;
 }
 
 /*************************************/
 
 .content {
-	width: 1500px;
-	height: 700px;
+	width: 80%;
+	height: 60%;
 	margin:0 auto;
-	position: relative;
+	display: flex;
+	flex-flow: row wrap;
 	
 }
 
 .image {
-	width:20%;
-	height: 20%;
-	padding: 30px;
-	display: inline-block;
+	width:25%;
+	height: 25%;
+	display: flex;
+	justify-content: center;
+	
 }
 
-.one {
-	background: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}	
-
-.two{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/135px-Wiktionary-logo-en.svg.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.three{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wikiquote-logo-en.png/120px-Wikiquote-logo-en.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.four{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo-en-noslogan.svg/140px-Wikibooks-logo-en-noslogan.svg.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.five{
-	background: url(http://upload.wikimedia.org/wikipedia/sources/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.six{
-	background: url(http://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.seven{
-	background: url(http://upload.wikimedia.org/wikiversity/en/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.eight{
-	background: url(http://upload.wikimedia.org/wikipedia/species/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.nine{
-	background: url(http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.ten{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/e/e4/Wikidata-logo-en-135px.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.eleven{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/7/79/Wiki-commons.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.twelve{
-	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikivoyage-Logo-v3-en.svg/135px-Wikivoyage-Logo-v3-en.svg.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.thirteen{
-	background: url(http://upload.wikimedia.org/wikipedia/meta/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.fourteen{
-	background: url(http://upload.wikimedia.org/wikipedia/incubator/b/bc/Wiki.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.fifteen{
-	background: url(http://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.sixteen {
-	background: url(http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png);
-	background-repeat: no-repeat;
-	background-position: center;
-}
